@@ -1,11 +1,12 @@
-# js-lab-110
-### Lab110 Array: log ตามกำหนด
-ให้ใช้ forEach และ console.log ให้ได้ผลลัพธ์แบบใน comment ด้านล่าง
+# js-lab-111
+### Lab111 Array: การหาelement
+จงหา element ตัวแรก ใน inventory ที่มี name เท่ากับ cherries
 
 ```JavaScript
-const names = ['Mike', 'Sid', 'Jack', 'Bill'];
-// 1. Mike
-// 2. Sid
-// 3. Jack
-// 4. Bill
+const inventory = [
+  { name: 'apples', quantity: 2 },
+  { name: 'bananas', quantity: 0 },
+  { name: 'cherries', quantity: 5 }
+];
+// expected result: { name: 'cherries', quantity: 5 }
 ```
